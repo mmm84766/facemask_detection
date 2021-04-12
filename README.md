@@ -131,26 +131,7 @@ python mask-detector-video.py -y yolov4-mask-detector -u 1
 	python mask-detector-video.py -y yolov4-mask-detector -i input/airport.mp4 -u 1
 	```
 	
-- **Output Video:**
-<p align="center">
-  <img src="https://github.com/adityap27/face-mask-detector/blob/master/media/readme-airport.gif?raw=true">
-</p>
 
-### 3.3 Detection on WebCam
-- Use command: (just remove input video file)
-	```
-	./darknet detector demo obj.data yolov3.cfg yolov3_face_mask.weights -thresh 0.45
-	```
-	OR
-- Use inference script: (just remove input video file)
-	```
-	python mask-detector-video.py -y yolov3-mask-detector -u 1
-	```
-	
-- **Output Video:**
-<p align="center">
-  <img src="https://github.com/adityap27/face-mask-detector/blob/master/media/readme-webcam.gif?raw=true">
-</p>
 	
 
 
