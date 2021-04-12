@@ -88,15 +88,6 @@ python mask-detector-video.py -y yolov4-mask-detector -u 1
 - **Metric is mAP@0.5** i.e Mean Average Precision.
 - **Frames per Second (FPS)** was measured on **Google Colab GPU - Tesla P100-PCIE** using **Darknet** command: [link](https://github.com/AlexeyAB/darknet#how-to-evaluate-fps-of-yolov4-on-gpu)
 
-| Model | Training Set | Validation Set | Test Set | FPS |
-|:--:|:--:|:--:|:--:|:--:|
-| [YOLOv4](https://github.com/adityap27/face-mask-detector/blob/master/media/YOLOv4%20Performance.jpg?raw=true) | 99.65% | 88.38% | 93.95% | 22 FPS |
-- **Note:** For more detailed evaluation of model, click on model name above.
-- **Conclusion:**
-	- Yolov2 has **High bias** and **High Variance**, thus Poor Performance.
-	- Yolov3 has **Low bias** and **Medium Variance**, thus Good Performance.
-	- Yolov4 has **Low bias** and **Medium Variance**, thus Good Performance.
-	- Model can still generalize well as discussed in section : [4. Suggestions to improve Performance](#Suggestions-to-improve-Performance)
 
 ### 3. Inference
 
