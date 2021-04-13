@@ -6,10 +6,6 @@
 
 It detects human faces with 𝐦𝐚𝐬𝐤 𝐨𝐫 𝐧𝐨-𝐦𝐚𝐬𝐤 even in crowd in real time with live count.
 
-<p align="center">
-  <img src="https://github.com/adityap27/face-mask-detector/blob/master/media/readme-airport.gif?raw=true">
-</p>
-
 **System Modules:**
   
 1. **Deep Learning Model :** I trained a YOLOv4 on my own dataset and for YOLOv4 achieved **93.95% mAP on Test Set** whereaseven though my test set contained realistic blur images, small + medium + large faces which represent the real world images of average quality.  
