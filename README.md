@@ -29,14 +29,8 @@ pip install imutils
 ```
 python mask-detector-video.py -y yolov4-mask-detector -u 1
 ```
-## Face-Mask Dataset
 
-### 1. Image Sources
-- Images were collected from [Google Images](https://www.google.com/imghp?hl=en), [Bing Images](https://www.bing.com/images/trending?form=Z9LH) and some [Kaggle Datasets](https://www.kaggle.com/vtech6/medical-masks-dataset).
-- Chrome Extension used to download images: [link](https://download-all-images.mobilefirst.me/)
 
-### 2. Image Annotation
-- Images were annoted using [Labelimg Tool](https://github.com/tzutalin/labelImg).
 
 ### 3. Dataset Description
 - Dataset is split into 3 sets:
