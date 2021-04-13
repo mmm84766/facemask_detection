@@ -119,7 +119,7 @@ python mask-detector-video.py -y yolov4-mask-detector -u 1
 	OR
 - Use inference script
 	```
-	python mask-detector-video.py -y yolov4-mask-detector -i input/airport.mp4 -u 1
+	python mask-detector-video.py -y yolov4-mask-detector -i input/task_video.mp4 -u 1
 	```
 	
 
