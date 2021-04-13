@@ -96,6 +96,9 @@ python mask-detector-video.py -y yolov4-mask-detector -u 1
 	```
 	python mask-detector-image.py -y yolov4-mask-detector -i input/1.jpg
 	```
+- **Output Image:**
+	
+	![1_output.jpg](https://github.com/mmm84766/facemask_detector/blob/main/output/1_output.jpg?raw=true)
 
 
 ### 3.2 Detection on Video
